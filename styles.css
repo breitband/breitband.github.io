@@ -16,8 +16,60 @@ h1, h2 {
                  0 10px 10px magenta,
                  0 20px 20px magenta;
     font-size: 150px;
-    color: chartreuse
+    color: chartreuse;
 }
+
 .container {
     text-align: center;
+    width: 100%;
+}
+
+h2 {
+     
+    text-shadow: 0 1px 0 magenta,
+                 0 2px 0 magenta,
+                 0 3px 0 magenta,
+                 0 4px 0 magenta,
+                 0 5px 0 magenta,
+                 0 6px 1px magenta,
+                 0 0 5px magenta,
+                 0 1px 3px magenta,
+                 0 3px 5px magenta,
+                 0 5px 10px magenta,
+                 0 10px 10px magenta,
+                 0 20px 20px magenta;
+    font-size: 80px;
+    color: darkturquoise;
+
+
+    /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example1 8s linear infinite;
+ -webkit-animation: example1 8s linear infinite;
+ animation: example1 8s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+
 }
