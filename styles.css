@@ -1,0 +1,23 @@
+body {
+    background-color: green;
+}
+
+h1, h2 {
+    text-shadow: 0 1px 0 magenta,
+                 0 2px 0 magenta,
+                 0 3px 0 magenta,
+                 0 4px 0 magenta,
+                 0 5px 0 magenta,
+                 0 6px 1px magenta,
+                 0 0 5px magenta,
+                 0 1px 3px magenta,
+                 0 3px 5px magenta,
+                 0 5px 10px magenta,
+                 0 10px 10px magenta,
+                 0 20px 20px magenta;
+    font-size: 150px;
+    color: chartreuse
+}
+.container {
+    text-align: center;
+}
