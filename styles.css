@@ -1,8 +1,42 @@
-body {
+.index-body {
     background-color: green;
 }
 
-h1, h2 {
+.links-body {
+    background-color: goldenrod;
+}
+
+.concerts-body {
+    background-color: deeppink;
+}
+
+.guestbook-body {
+    background-color: aqua;
+}
+
+a {
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+a:hover {
+    text-shadow: 0 1px 0 magenta,
+                 0 2px 0 magenta,
+                 0 3px 0 magenta,
+                 0 4px 0 magenta,
+                 0 5px 0 magenta,
+                 0 6px 1px magenta,
+                 0 0 5px magenta,
+                 0 1px 3px magenta,
+                 0 3px 5px magenta,
+                 0 5px 10px magenta,
+                 0 10px 10px magenta,
+                 0 20px 20px magenta;
+    
+}
+
+h1 {
     text-shadow: 0 1px 0 magenta,
                  0 2px 0 magenta,
                  0 3px 0 magenta,
@@ -22,6 +56,27 @@ h1, h2 {
 .container {
     text-align: center;
     width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+.nav-home {
+    text-shadow: 0 1px 0 magenta,
+                 0 2px 0 magenta,
+                 0 3px 0 magenta,
+                 0 4px 0 magenta,
+                 0 5px 0 magenta,
+                 0 6px 1px magenta,
+                 0 0 5px magenta,
+                 0 1px 3px magenta,
+                 0 3px 5px magenta,
+                 0 5px 10px magenta,
+                 0 10px 10px magenta,
+                 0 20px 20px magenta;
+    font-size: 50px;
+    color: chartreuse;
 }
 
 h2 {
