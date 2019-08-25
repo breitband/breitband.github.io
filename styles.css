@@ -21,7 +21,14 @@
 }
 
 .subpage-link {
-    background-color: beige;
+    background-color: goldenrod;
+    width: 50%;
+}
+
+.visit-counter {
+    width: 20%;
+    background-color: chartreuse;
+    font-size: 20px;
 }
 
 a:hover {
